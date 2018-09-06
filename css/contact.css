@@ -1,0 +1,347 @@
+/*导航开始*/
+header{
+    width: 100%;
+    /*height: 94px;*/
+    padding-top: 15px ;
+    background: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+header .main_body{
+    /*height: 94px;*/
+    background: #FFFFFF;
+    margin: 0 30px;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content:space-around;*/
+    /*align-items: center;*/
+
+}
+header .main_body .menu{
+    font-size: 40px;
+    color: #0f0f0f;
+    float: right;
+}
+header .main_body ul li{
+    border-right: 1px solid #ededed;
+    padding: 0 35px;
+    float: left;
+    display: none;
+}
+header .main_body .left4{
+    border: none;
+}
+header .main_body .right4{
+    border: none;
+}
+header .main_body .left1 a{
+    display: block;
+    height: 35px;
+    width: 34px;
+    background-image: url("../img/首页.png");
+    background-size: auto 200%;
+}
+header .main_body .left2 a{
+    display: block;
+    height: 35px;
+    width: 34px;
+    background-image: url("../img/品牌.png");
+    background-size: auto 200%;
+}
+header .main_body .left3 a{
+    display: block;
+    height: 35px;
+    width: 34px;
+    background-image: url("../img/产品.png");
+    background-size: auto 200%;
+}
+header .main_body .left4 a{
+    display: block;
+    height: 35px;
+    width: 34px;
+    background-image: url("../img/新闻.png");
+    background-size: auto 200%;
+}
+header .main_body .logo{
+    width: 50px;
+    height: 52px;
+    float: left;
+}
+header .main_body .logo img{
+    width: 100%;
+    height: auto;
+}
+header .main_body .right1 a{
+    display: block;
+    height: 35px;
+    width: 34px;
+    background-image: url("../img/店铺.png");
+    background-size: auto 200%;
+}
+header .main_body .right2 a{
+    display: block;
+    height: 35px;
+    width: 34px;
+    background-image: url("../img/加盟.png");
+    background-size: auto 200%;
+}
+header .main_body .right3 a{
+    display: block;
+    height: 35px;
+    width: 34px;
+    background-image: url("../img/联系.png");
+    background-size: auto 200%;
+}
+header .main_body .right4 a{
+    display: block;
+    height: 35px;
+    width: 34px;
+    background-image: url("../img/微信.png");
+    background-size: 100% 100%;
+}
+/*导航结束*/
+/*banner图开始*/
+.banner{
+    width: 100%;
+    height: 300px;
+    margin-top: 120px;
+    padding-top: 50px;
+}
+.banner .text{
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color:#FFFFFF;
+}
+.banner .text h1{
+
+    font-size: 30px;
+}
+.banner .text h2{
+    font-size: 40px;
+    font-weight: normal;
+}
+.wall{
+    /*width: 100%;*/
+    /*height: auto;*/
+    background-image: url("../img/加盟背景.jpg");
+    /*background-size: 100% 100%;*/
+    /*position: fixed;*/
+    /*left: 0;*/
+    /*top: 109px;*/
+    /*z-index: 0;*/
+    position: fixed;
+    left: 0;
+    top: 109px;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: top 300ms;
+    transition: top 300ms;
+}
+/*banner结束*/
+/*联系方式*/
+.section{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: #FFFFFF;
+}
+.section .box{
+    width: 100%;
+    height: auto;
+}
+.section .box ul li{
+    /*width: 100%;*/
+    padding: 20px;
+    border-left: 1px solid #eee;
+}
+.section .box ul li .text{
+    height: 79px;
+}
+.section .box ul li .text h4{
+    font-weight: normal;
+    font-size: 12px;
+    color: #ccc;
+    opacity: 0.8;
+    letter-spacing: 5px;
+}
+.section .box ul li .text h3{
+    font-size: 18px;
+    margin: 0;
+}
+.section .box ul li .text h2{
+    font-weight: normal;
+    color: #e51a5b;
+    font-size: 16px;
+}
+/*联系方式*/
+/*招聘*/
+.recruit{
+    background: #eee;
+    width: 100%;
+    padding: 20px;
+}
+.recruit .box{
+    width: 100%;
+    height: auto;
+}
+.recruit .box .top{
+    color: #666;
+    text-align: left;
+    margin-bottom: 50px;
+    line-height: 18px;
+    display: flex;
+}
+.recruit .box .top .left{
+    /*float: left;*/
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+.recruit .box .top .left h2{
+    font-size: 15px;
+    margin: 0;
+}
+.recruit .box .top .left h3{
+    font-size: 15px;
+    margin: 0;
+    margin-top: 10px;
+}
+.recruit .box .top .right{
+    /*float: left;*/
+    font-size: 14px;
+    line-height: 1.6em;
+    color: #999;
+}
+.recruit .box ul li{
+    /*width: 100%;*/
+    /*padding: 0;*/
+    /*padding-right: 10px;*/
+    padding-bottom: 10px;
+
+}
+.recruit .box ul li a{
+    display: block;
+
+    background: #FFFFFF;
+}
+.recruit .box ul li a .single{
+    width: 100%;
+    padding: 20px;
+}
+.recruit .box ul li a .single .text{
+    width: 100%;
+    color: #444444;
+}
+.recruit .box ul li a .single .text p{
+    font-size: 13px;
+    line-height: 18px;
+}
+.recruit .box ul li a .single .text h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    font-weight: bold;
+}
+/*底部*/
+.footer{
+    width: 100%;
+    background-color: #222;
+    padding-top: 20px;
+}
+.footer .box{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+.footer .box .txt1{
+    /*width: 100%;*/
+    float: right;
+    /*margin-right: 40px;*/
+    padding-left:10px ;
+    border-left: 1px solid #666666;
+}
+.footer .box .txt1 h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #e50055;
+}
+.footer .box .txt1 p{
+    font-size: 13px;
+    line-height: 18px;
+    color: #999999;
+}
+.footer .box .txt2{
+    /*width: 100%;*/
+    float: right;
+    /*margin-right: 40px;*/
+    padding-left:10px ;
+    border-left: 1px solid #666666;
+}
+.footer .box .txt2 h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #e50055;
+}
+.footer .box .txt2 p{
+    font-size: 13px;
+    line-height: 18px;
+    color: #999999;
+}
+.footer .box .icon{
+    float: left;
+    width: 200px;
+}
+.footer .box .icon img{
+    width: 200px;
+    height: auto;
+}
+.footer .box .icon h3{
+    margin: 10px 0;
+    font-size: 16px;
+    color: #e51a5b;
+    line-height: 15px;
+    text-align: right;
+}
+
+
+@media screen  and  (min-width: 768px) {
+}
+@media screen  and  (min-width: 992px){
+    header .main_body{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+    }
+    header .main_body ul li{
+        display: block;
+    }
+    header .main_body .menu{
+        display: none;
+    }
+    header .main_body .logo{
+        width: 90px;
+        height: auto;
+    }
+    header{
+        height: auto;
+    }
+    .recruit .box .top .left h2{
+        font-size: 28px;
+        margin: 0;
+    }
+}
+@media screen  and  (min-width: 1200px){
+
+}
