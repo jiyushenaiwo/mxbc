@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/brand.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1,user-scalable=no">
-    <title>Document</title>
+    <title>品牌</title>
 </head>
 <body>
 <!--导航栏开始-->
@@ -17,16 +17,16 @@
     <div class="main_body">
         <ul>
             <li class="left1">
-                <a href=""></a>
+                <a href="index.html"></a>
             </li>
             <li class="left2">
-                <a href=""></a>
+                <a href="brand.html"></a>
             </li>
             <li class="left3">
-                <a href=""></a>
+                <a href="product.html"></a>
             </li>
             <li class="left4">
-                <a href=""></a>
+                <a href="news.html"></a>
             </li>
         </ul>
         <div class="logo">
@@ -34,13 +34,13 @@
         </div>
         <ul>
             <li class="right1">
-                <a href=""></a>
+                <a href="store.html"></a>
             </li>
             <li class="right2">
-                <a href=""></a>
+                <a href="franchise.html"></a>
             </li>
             <li class="right3">
-                <a href=""></a>
+                <a href="contact.html"></a>
             </li>
             <li class="right4">
                 <a href=""></a>
@@ -77,7 +77,7 @@
 <!--品牌文化-->
 <div class="sale one">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/品牌1.jpg" alt="">
@@ -100,7 +100,7 @@
 </div>
 <div class="sale two">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/品牌2.jpg" alt="">
@@ -121,7 +121,7 @@
 </div>
 <div class="sale one">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/品牌3.jpg" alt="">
@@ -142,7 +142,7 @@
 </div>
 <div class="sale two">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/品牌4.jpg" alt="">
@@ -193,6 +193,25 @@
         </div>
     </div>
 </div>
+<div class="tc_box1">
+    <div class="sim_box1">
+        <div class="text_tc1">
+            <b>品牌文化</b>
+            <img src="img/品牌文化图.jpg" alt="">
+            <!--<h3>红枣牛奶</h3>-->
+            <!--<p>用荷兰进口鲜牛奶，搭配优质红枣，热水冲泡，奶香，枣香四溢</p>-->
+        </div>
+    </div>
+</div>
 <!--底部完-->
 </body>
 </html>
+<script src="js/jQuery.js"></script>
+<script>
+    $(".sale .box").click(function () {
+        $(".tc_box1").fadeIn("slow");
+    })
+    $(".tc_box1").click(function () {
+        $(".tc_box1").fadeOut("slow");
+    })
+</script>

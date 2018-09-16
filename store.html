@@ -17,16 +17,16 @@
     <div class="main_body">
         <ul>
             <li class="left1">
-                <a href=""></a>
+                <a href="index.html"></a>
             </li>
             <li class="left2">
-                <a href=""></a>
+                <a href="brand.html"></a>
             </li>
             <li class="left3">
-                <a href=""></a>
+                <a href="product.html"></a>
             </li>
             <li class="left4">
-                <a href=""></a>
+                <a href="news.html"></a>
             </li>
         </ul>
         <div class="logo">
@@ -34,13 +34,13 @@
         </div>
         <ul>
             <li class="right1">
-                <a href=""></a>
+                <a href="store.html"></a>
             </li>
             <li class="right2">
-                <a href=""></a>
+                <a href="franchise.html"></a>
             </li>
             <li class="right3">
-                <a href=""></a>
+                <a href="contact.html"></a>
             </li>
             <li class="right4">
                 <a href=""></a>
@@ -111,7 +111,7 @@
 <!--门面-->
 <div class="sale one">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/门面1.jpg" alt="">
@@ -130,7 +130,7 @@
 </div>
 <div class="sale two">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/门面2.jpg" alt="">
@@ -149,7 +149,7 @@
 </div>
 <div class="sale two">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/门面2.jpg" alt="">
@@ -168,7 +168,7 @@
 </div>
 <div class="sale one">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/门面3.jpg" alt="">
@@ -218,6 +218,25 @@
         </div>
     </div>
 </div>
+<div class="tc_box1">
+    <div class="sim_box1">
+        <div class="text_tc1">
+            <b>新门店形象</b>
+            <img src="img/门面1.jpg" alt="">
+            <!--<h3>红枣牛奶</h3>-->
+            <p>2016年，公司对品牌形象进行全面升级。品牌logo增加对话框元素，强调品牌和年轻消费群体的沟通。主体墙面大面积使用品牌标准色，形成视觉冲击力，加深顾客印象。门店新增电视机画面、Logo灯箱、户外灯箱以及收银机等，从多方面、多维度强化品牌标识。店面形象更加时尚、年轻化。在细节上，门店在吧台设计上有所创新，采用了华夫格元素，形成更加生动、形象的视觉画面，强调凸显蜜雪冰城主打产品冰淇淋。</p>
+        </div>
+    </div>
+</div>
 <!--底部完-->
 </body>
 </html>
+<script src="js/jQuery.js"></script>
+<script>
+    $(".sale .box a .inner").click(function () {
+        $(".tc_box1").fadeIn("slow");
+    })
+    $(".tc_box1").click(function () {
+        $(".tc_box1").fadeOut("slow");
+    })
+</script>

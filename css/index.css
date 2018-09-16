@@ -126,7 +126,7 @@ header .main_body .right4 a{
 /*轮播图*/
 .swiper-container {
     width: 100%;
-   height: 194px;
+   /*height: 194px;*/
 }
 .swiper-slide{
     width: 100%;
@@ -194,6 +194,7 @@ header .main_body .right4 a{
 .synopsis .img:hover{
     transform:translate(0, -2px);
     box-shadow: 0 0 25px #8c8c8c;
+    transition:all 0.7s linear;
 }
 /*简介结束*/
 /*新闻*/
@@ -238,8 +239,10 @@ header .main_body .right4 a{
 .news .box .box1 .right ul li{
     font-size: 14px;
 }
-.news .box > div:hover{
-
+.news .box .box1 .left:hover{
+    transform:translate(0, -2px);
+    box-shadow: 0 0 25px #8c8c8c;
+    transition:all 0.7s linear;
 }
 /*新闻完*/
 /*原材*/
@@ -266,7 +269,7 @@ header .main_body .right4 a{
 .original .bottom ul li a{
     display: block;
     padding: 0 10%;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .original .bottom ul li a .box{
     width: 100%;
@@ -282,16 +285,19 @@ header .main_body .right4 a{
 .original .bottom ul li a .box .mask{
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.3);
     border-radius: 10px;
     text-align: center;
-
     color: #FFFFFF;
     font-size: 16px;
     position: absolute;
     left: 0;
     top: 0;
+    overflow: hidden;
 }
+.original .bottom ul li a .box .mask:hover{
+    background: rgba(0,0,0,0.3);
+}
+
 .original .bottom ul li a .box .mask h2{
     font-size: 16px;
     margin-top: 50px;
@@ -330,7 +336,6 @@ header .main_body .right4 a{
 .product .box ul li a{
     display: block;
 }
-
 .product .box ul li a .single{
     width: 100%;
     height: auto;
@@ -343,6 +348,9 @@ header .main_body .right4 a{
 .product .box ul li a .single .chart img{
     width: 100%;
     height: 100%;
+}
+.product .box ul li a .single .chart img:hover{
+    background: rgba(0,0,0,0.3);
 }
 .product .box ul li a .single .txt{
     width: 100%;
@@ -377,6 +385,10 @@ header .main_body .right4 a{
     color: #666666;
     border-radius: 5px;
     text-shadow: none;
+}
+.product .more .caption a:hover{
+    background: #e50055;
+    color: #FFFFFF;
 }
 .join{
     width: 100%;
@@ -419,14 +431,21 @@ header .main_body .right4 a{
 .join .content ul li .box .xs{
     border-top: 1px solid #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
+    padding: 24px;
+}
+.join .content ul li .box .xs:hover {
+    background: rgba(0, 0, 0, 0.3);
+    border: 0;
 }
 .join .content ul li .box .xs .sm{
-    margin: 24px;
+    /*margin: 24px;*/
 }
 .join .content ul li .box .xs .sm h2{
     text-align: center;
     font-size: 18px;
     color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
 .footer{
     padding-top: 20px;
@@ -489,16 +508,108 @@ header .main_body .right4 a{
     line-height: 15px;
     text-align: right;
 }
+/*弹出框*/
+.tc_box{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5 );
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: none;
+}
+.sim_box{
+    width: 700px;
+    height: 100%;
+    background: #FFFFFF;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 30px;
+}
+.sim_box .text_tc{
+    width: 100%;
+    height: auto;
+}
+.sim_box .text_tc b{
+    font-size: 31px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.sim_box .text_tc img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sim_box .text_tc p{
+    text-indent: 30px;
+    font-size: 18px;
+}
+.tc_box1{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5 );
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: none;
+}
+.sim_box1{
+    width: 700px;
+    height: 100%;
+    background: #FFFFFF;
+    position: fixed;
+    margin: 0 auto;
+    left: 0px;
+    right: 0;
+    padding: 30px;
+}
+.sim_box1 .text_tc1{
+    width: 100%;
+    height: auto;
+}
+.sim_box1 .text_tc1 b{
+    font-size: 31px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.sim_box1 .text_tc1 img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sim_box1 .text_tc1 p{
+    text-indent: 30px;
+    font-size: 18px;
+}
+.sim_box1 .text_tc1 h3{
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+
+
+
+
 @media screen  and  (min-width: 768px) {
     .swiper-container {
         width: 100%;
-        height: 310px;
+        /*height: 310px;*/
     }
 }
 @media screen  and  (min-width: 992px){
     .swiper-container {
         width: 100%;
-        height: 400px;
+        /*height: 400px;*/
     }
     header .main_body{
         display: flex;
@@ -523,6 +634,6 @@ header .main_body .right4 a{
 @media screen  and  (min-width: 1200px){
     .swiper-container {
         width: 100%;
-        height: 455px;
+        /*height: 455px;*/
     }
 }

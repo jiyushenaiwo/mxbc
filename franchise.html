@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1,user-scalable=no">
 
-    <title>Document</title>
+    <title>加盟</title>
 </head>
 <body>
 <!--导航栏开始-->
@@ -18,16 +18,16 @@
     <div class="main_body">
         <ul>
             <li class="left1">
-                <a href=""></a>
+                <a href="index.html"></a>
             </li>
             <li class="left2">
-                <a href=""></a>
+                <a href="brand.html"></a>
             </li>
             <li class="left3">
-                <a href=""></a>
+                <a href="product.html"></a>
             </li>
             <li class="left4">
-                <a href=""></a>
+                <a href="news.html"></a>
             </li>
         </ul>
         <div class="logo">
@@ -35,13 +35,13 @@
         </div>
         <ul>
             <li class="right1">
-                <a href=""></a>
+                <a href="store.html"></a>
             </li>
             <li class="right2">
-                <a href=""></a>
+                <a href="franchise.html"></a>
             </li>
             <li class="right3">
-                <a href=""></a>
+                <a href="contact.html"></a>
             </li>
             <li class="right4">
                 <a href=""></a>
@@ -56,7 +56,7 @@
     <div class="text">
         <h1>JOIN US</h1>
         <h2>加盟</h2>
-        <a href="">
+        <a href="javaScript:;">
             填写加盟申请表
         </a>
     </div>
@@ -66,7 +66,7 @@
 <!--要求-->
 <div class="sale one">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/加盟1.jpg" alt="">
@@ -85,7 +85,7 @@
 </div>
 <div class="sale two">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/加盟2.jpg" alt="">
@@ -104,7 +104,7 @@
 </div>
 <div class="sale one">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/加盟3.jpg" alt="">
@@ -123,7 +123,7 @@
 </div>
 <div class="sale two">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/加盟4.jpg" alt="">
@@ -142,7 +142,7 @@
 </div>
 <div class="sale one">
     <div class="box">
-        <a href="">
+        <a href="javaScript:;">
             <div class="inner">
                 <div class="img">
                     <img src="img/加盟5.jpg" alt="">
@@ -192,6 +192,28 @@
         </div>
     </div>
 </div>
+<div class="tc_box1">
+    <div class="sim_box1">
+        <div class="text_tc1">
+            <b>加盟要求</b>
+            <img src="img/加盟1.jpg" alt="">
+            <!--<h3>红枣牛奶</h3>-->
+            <p>蜜雪冰城特许经营客户需要具有较强的进取精神，对门店管理具有基本概念；
+                具备一定的资金实力，对创业投资的收益和风险有正确的认知；
+                具备一定的资金实力，对创业投资的收益和风险有正确的认知；
+                具备一定的资金实力，对创业投资的收益和风险有正确的认知；</p>
+        </div>
+    </div>
+</div>
 <!--底部完-->
 </body>
 </html>
+<script src="js/jQuery.js"></script>
+<script>
+    $(".sale .box").click(function () {
+        $(".tc_box1").fadeIn("slow");
+    })
+    $(".tc_box1").click(function () {
+        $(".tc_box1").fadeOut("slow");
+    })
+</script>
